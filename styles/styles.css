@@ -459,23 +459,23 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 70%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 70%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 83%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 80%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 60%;
+}
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 90%;
+  width: 50%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
