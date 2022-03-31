@@ -24,7 +24,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary:#F0E68C	;
+  --color-secondary: #FAEBD7;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -41,8 +41,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: margin-right 2s;
+  transition: margin-right 2s;
 }
 
 a {
@@ -68,8 +68,8 @@ section {
 }
 
 .section {
-  -webkit-transform: translateY(-100%) scale(0);
-          transform: translateY(-100%) scale(0);
+  -webkit-transform: translateX(-100%) scale(0);
+          transform: translateX(-100%) scale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   background-color: var(--color-primary);
@@ -77,33 +77,33 @@ section {
 
 .sec1 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
   padding: 0 !important;
 }
 
 .sec2 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
 }
 
 .sec3 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
 }
 
 .sec4 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
 }
 
 .sec5 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
 }
 
 .active {
@@ -114,23 +114,23 @@ section {
 
 @-webkit-keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
+    -webkit-transform: translateX(-100%) scaleX(0);
+            transform: translateX(-100%) scaleX(0);
   }
   100% {
-    -webkit-transform: translateY(0) scaleY(1);
-            transform: translateY(0) scaleY(1);
+    -webkit-transform: translateX(0) scaleX(1);
+            transform: translateX(0) scaleX(1);
   }
 }
 
 @keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
+    -webkit-transform: translateX(-100%) scaleX(0);
+            transform: translateX(-100%) scaleX(0);
   }
   100% {
-    -webkit-transform: translateY(0) scaleY(1);
-            transform: translateY(0) scaleY(1);
+    -webkit-transform: translateX(0) scaleX(1);
+            transform: translateX(0) scaleX(1);
   }
 }
 
@@ -466,11 +466,11 @@ section {
   width: 80%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .AS {
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 70%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .BI {
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 60%;
 }
 
@@ -479,7 +479,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 50%;
 }
 
 .stat-title {
